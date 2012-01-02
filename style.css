@@ -1,0 +1,181 @@
+/*
+Theme Name: Flickr Photo Blog
+Theme URI: blog.flickr.net
+Template: themeNeverEndng
+Author: Flickr (loves you)
+Author URI: http://code.flickr.com/
+Description: Based off of the twentyeleven theme for WordPress and after that Theme Never Ending
+Version: 1.0 (beta)
+License: GNU General Public License
+License URI: license.txt
+*/
+
+/*
+*  Some high level TNE shit (copied january 1st, 2012)
+*/
+
+/* General */
+body {
+	font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	padding:5px;
+	color:#444;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #FF0084;
+}
+
+h1 a {
+	color:#FF0084;
+	text-decoration:none;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+h3 a {
+	color:#444;
+	text-decoration:none;
+}
+
+h4 {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+/* Text specific */
+a {
+	color:#0063DC;
+}
+
+a:hover {
+	color:#fff;
+	background-color:#0063DC;
+}
+
+span.inactive {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+span.small {
+	font-size: 11px;
+	font-weight: normal;
+}
+
+span.info {
+	background-color: #F1F6FB;
+}
+
+span.alert {
+	background-color: #FFFFD4;
+}
+
+span.success {
+	background-color: #E0FDD1;
+}
+
+span.love {
+	background-color: #FEF1F8;
+}
+
+time {
+	color: #999999;
+	font-size:12px;
+}
+
+/* Accessability Links */
+#access {display:none;}
+
+/* Header & Footer */
+header#branding {
+	background:url('i/flickblog_logo.gif') top left no-repeat;
+	height:50px;
+	text-align:right;
+	padding-bottom:5px;
+	border-bottom:dotted 1px #999;
+	margin-bottom:15px;
+}
+
+footer {
+	border-top:dotted 1px #999;
+	padding-top:5px;
+	
+}
+
+/* Main Area */
+
+#primary {
+	width:860px;
+	display:inline-block;
+	vertical-align:top;
+	padding-right:15px;
+}
+
+#sidebar {
+	width:146px;
+	display:inline-block;
+	vertical-align:top;
+	padding-top:9px;
+}
+
+/* Article */
+article {
+	margin-bottom:15px;
+}
+
+article header {
+	padding-bottom:5px;
+	border-bottom:none;
+	margin-bottom:5px;
+}
+
+article section {
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+
+article footer {
+	padding:3px;
+	background-color: #F7F7F7;
+	border-top:none;
+}
+
+.wp-tribute-like-a-boss {
+	margin-top:15px;
+}
+
+/*
+*  Some low level flickrPhotoBlog shit
+*/
+
+#main {width:1024px;}
+
+#branding h1, #branding h2 {display:none;}
+
+/* Main Area */
+
+#primary {
+	width:860px;
+	display:inline-block;
+	vertical-align:top;
+	padding-right:15px;
+}
+
+#sidebar {
+	width:146px;
+	display:inline-block;
+	vertical-align:top;
+	padding-top:9px;
+}
